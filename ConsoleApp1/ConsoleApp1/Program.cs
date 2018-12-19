@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var name = Environment.GetEnvironmentVariable("Release.ReleaseName") ?? $"Manual-{Environment.MachineName}";
+            var name = Environment.GetEnvironmentVariable("Release_ReleaseName") ?? $"Manual-{Environment.MachineName}";
             Console.WriteLine($"Hello World! {name}");
         }
     }
